@@ -8,7 +8,7 @@ import Logo from "./img/logo.png";
 function Home() {
   return (
     <div>
-      <h1 style={{ color: "green" }}>Header Seaction</h1>
+      <h1 style={{ color: "green" }}>Header Seaction of Home</h1>
       <header>
         <img src={Logo} alt="Logo" width="100" height="100" />
         <nav>
@@ -23,11 +23,12 @@ function Home() {
               <a href="/project">Projects</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="/resume">Resume</a>
             </li>
           </ul>
         </nav>
       </header>
+      
       <h1 style={{ color: "green" }}>Body section 1</h1>
       <section>
         <h2>Hi There!</h2>
@@ -38,6 +39,7 @@ function Home() {
         <h3>MERN Stack Developer</h3>
         <img src={Alien} alt="Alien" width="500" height="400" />
       </section>
+
       <h1 style={{ color: "green" }}>Body section 2</h1>
       <section>
         <h2>Brief Introduction</h2>
@@ -51,6 +53,7 @@ function Home() {
         </p>
         <img src={MWC} alt="MWCoffee" width="500" height="400" />
       </section>
+
       <h1 style={{ color: "green" }}>Footer Section</h1>
       <footer>
         <h6>Developed by Udit Kumar Nayak</h6>
