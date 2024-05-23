@@ -26,8 +26,8 @@ function Resume() {
           </ul>
         </nav>
       </header>
-      <h1 style={{ color: "green" }}>Body section 1</h1>
-      <h1 style={{ color: "green" }}>Body section 2</h1>
+      <h1 style={{ color: "green" }}>Body section</h1>
+      <div>Download CV</div>
       <h1 style={{ color: "green" }}>Footer Section</h1>
       <footer>
         <h6>Developed by Udit Kumar Nayak</h6>
